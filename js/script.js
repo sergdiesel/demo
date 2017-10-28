@@ -90,7 +90,7 @@
         //    вспышка 90
     console.log(coordWheel)
            switch(coordWheel){
-            jiihjoijoij;joijo
+     vxcgxg
                     case 0:
                     case 1:
                         hideAllImg()
