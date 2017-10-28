@@ -1,0 +1,152 @@
+ body{
+    user-select: none;
+}
+.content-block{
+    cursor: pointer;
+    position: relative;
+    width: 970px;
+    height: 250px;
+    border: 1px solid black;
+         .img-block img{
+           position: absolute;
+                display: none;
+                width: 53.09%;
+                height: 88.4%;
+                left: 26%;
+                top: 6%; 
+        }
+        .scroll-bar {
+          position: absolute;
+          top: 2%; 
+          left: 79%;
+          border-radius: 2%;
+          background: darkgrey;
+          height: 80%;
+          width: 1px;
+          margin: 2%;
+                img{
+                    position: absolute;
+                    width: 108px;
+                    height: 31px;
+                    left: 33px;
+                    top: -3px;
+                }
+                .wheel {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 10px;
+                    cursor: move;
+                    position: relative;
+                    left: -10px;
+                    top: 0px;
+                    background: black;
+                }
+            }
+       
+        
+        .another-elem {
+            a.buy-now img{
+                position: absolute;
+                width: 10.31%;
+                height: 12%;
+                top: 80%;
+                left: 84.5%;
+            }
+            img.samsung-logo{
+                position: absolute;
+                top: 8%;
+                left: 2.06%;
+                width: 7.21%;
+            }
+                img.galaxy-logo{
+                position: absolute;
+                top: 14%;
+                left: 2.06%;
+                width: 20.61%;
+            }
+            img.text1,
+            img.text2,
+            img.text3,
+            img.text4{
+                display: none;
+                position: absolute;
+                left: 2%;
+                top: 56%;
+            }
+            img.text1{
+                top: 67%;
+            }
+            img.img-flash{
+                position: absolute;
+                display: none;
+                z-index: 11;
+                left: 23.5%;
+                top: -20%;
+            }
+            img.image180{
+                display: none;
+                position: absolute;
+                top: 8%;
+                left: 33.3%;
+                width: 38.3%;
+                height: 84.1%;
+                z-index: 10;
+            }
+            img.image180{
+                display: none;
+                position: absolute;
+                top: 8%;
+                left: 33.3%;
+                width: 38.3%;
+                height: 84.1%;
+                z-index: 10;
+            }
+            img.image-frame{
+                position: absolute;
+                display: none;
+                z-index: 11;
+                left: 33.5%;
+                top: 59.9%;
+            }
+        }
+        .close-but {
+            .close-text{
+                position: absolute;
+                left: 92%;
+                top: 4%;
+                font-family: arial, sans-serif;
+                font-size: 11px;
+                letter-spacing: 0.4px;
+                text-decoration: underline;
+                color: black;
+            }
+            img.close{
+                position: absolute;
+                left: 97%;
+                top: 1%
+            }
+        }
+        .video{
+            .iframe-video{
+                position: absolute;
+                top: 10%;
+                left: 33.753%;
+                width: 37.422%;
+                height: 80.4%;  
+                z-index: 10;
+                display: block;
+            }
+            .horiz-strip1{
+                position: absolute;
+                top: 84%;
+                left: 33.45%;
+                z-index: 11;
+            }
+            .horiz-strip2{
+                position: absolute;
+                top: 9.6%;
+                left: 33.6%;
+                z-index: 11;
+            }
+        }
+}
